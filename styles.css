@@ -1,0 +1,51 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(197, 195, 198);
+}
+
+.header {
+    text-align: center;
+    background-color: rgb(76, 92, 104);
+    font-size: 40px;
+    padding-top: 5px;
+    color: rgb(177, 227, 219);
+    border-bottom: 2px solid black;
+}
+
+.gameArea {
+    height: 500px;
+    width: 500px;
+    background-color: white;
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gameStatus {
+    font-weight: 100;
+    font-size: 28px;
+    color: rgb(70, 73, 75);
+}
+
+button {
+    color: rgb(177, 227, 219);
+    margin-top: 30px;
+    background-color: rgb(76, 92, 104);
+    padding: 20px 50px;
+    border-radius: 7px;
+    font-size: 30px;
+}
+
+.grid-item {
+    border: 1px solid black;
+    font-size: 50px;
+    align-content: center;
+    justify-items: center;
+}
