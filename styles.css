@@ -45,7 +45,8 @@ button {
 
 .grid-item {
     border: 1px solid black;
-    font-size: 50px;
-    align-content: center;
-    justify-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 60px;
 }
